@@ -12,24 +12,53 @@
 			</div>
 		</div>
 		<div class="container">
-			<h5>Subject:</h5>
-			<div class="form-group">
-				<input type="text" name="subject" placeholder="Ticket subject" class="form-control">
-			</div>
-
-			<h5>Assign to: </h5>
-
-			<div class="btn-group" data-toggle="buttons">
-				<label class="btn btn-primary active">
-					<input type="radio" name="owner" id="astokes" autocomplete="off" checked>Alex
-				</label>
-				<label class="btn btn-primary">
-					<input type="radio" name="owner" id="khuong" autocomplete="off">Khuong
-				</label>
-				<label class="btn btn-primary">
-					<input type="radio" name="owner" id="sdespote" autocomplete="off">Stan
-				</label>
-			</div>
+			<form action="/" class="form-group">
+				<h5>Subject:</h5>
+				<div class="form-group">
+					<input type="text" name="subject" placeholder="Ticket subject" class="form-control">
+				</div>
+				<h5>Assign to: </h5>
+				<div class="btn-group" data-toggle="buttons">
+					<label class="btn btn-primary">
+						<input type="radio" name="owner" value="astokes" autocomplete="off" checked>Alex
+					</label>
+					<label class="btn btn-primary">
+						<input type="radio" name="owner" value="khuong" autocomplete="off">Khuong
+					</label>
+					<label class="btn btn-primary">
+						<input type="radio" name="owner" value="sdespote" autocomplete="off">Stan
+					</label>
+					<label class="btn btn-primary">
+						<input type="radio" name="owner" value="rdhavala" autocomplete="off">Ratna
+					</label>
+					<label class="btn btn-primary active">
+						<input type="radio" name="owner" value="pduong" autocomplete="off">Phuong
+					</label>
+					<label class="btn btn-success">
+						<input type="radio" name="owner" value="nali" autocomplete="off">Noorallah
+					</label>
+					<label class="btn btn-success">
+						<input type="radio" name="owner" value="waaziz" autocomplete="off">Wisam
+					</label>
+					<label class="btn btn-danger">
+						<input type="radio" name="owner" value="geoffc" autocomplete="off">Geoff
+					</label>
+					<label class="btn btn-danger">
+							<input type="radio" name="owner" value="trenta" autocomplete="off">Trent
+					</label>
+					<label class="btn btn-danger">
+							<input type="radio" name="owner" value="hermannk" autocomplete="off">Hermann
+					</label>
+					<label class="btn btn-warning">
+						<input type="radio" name="owner" value="mhoward" autocomplete="off">Matt
+					</label>
+					<label class="btn btn-warning">
+							<input type="radio" name="owner" value="msteers" autocomplete="off">Martin
+					</label>
+				</div>
+				<br/>
+				<input type="submit" value="Submit" class="btn btn-primary btn-block">
+			</form>
 		</div>
 		<br/>
 		<div class="container">
